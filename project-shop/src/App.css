@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -6,18 +8,36 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  background-color: #fffcf2;
 }
 
-header {
-  background-color: #222222;
-  height: 100px;
+.bar {
+  height: 5vh;
+  background-color: #83c5be;
+}
+
+nav, header {
+  height: 8vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+nav {
+  width: 30%;
+}
+
 header a {
-  color: whitesmoke;
+  color: rgb(32, 32, 32);
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+}
+
+a.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #5f2b61;
 }
