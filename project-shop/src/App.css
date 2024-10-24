@@ -39,5 +39,21 @@ header a {
 a.active-link {
   font-weight: bold;
   text-decoration: underline;
-  color: #5f2b61;
+  color: #99479c;
+}
+
+.logo-project {
+  color: #d07eff;
+  font-weight: 650;
+}
+
+.logo-shop {
+  color: #94f3ea;
+  font-weight: 400;
+}
+
+.logo {
+  background-color: #252525;
+  padding: 15px 20px;
+  border-radius: 30px;
 }
