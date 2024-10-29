@@ -29,6 +29,12 @@ export default function Header() {
                         >
                             Contact
                         </NavLink>
+                        <NavLink 
+                            to="/about"
+                            className={({isActive}) => isActive ? "active-link" : null}
+                        >
+                            About
+                        </NavLink>
                     </nav>
             </header>
     <div className="bar"></div>

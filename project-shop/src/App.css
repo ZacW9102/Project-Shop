@@ -13,11 +13,11 @@ html, body {
 
 .bar {
   height: 5vh;
-  background-color: #83c5be;
+  background-color: #68b9b1;
 }
 
 nav, header {
-  height: 8vh;
+  height: 9vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -57,3 +57,87 @@ a.active-link {
   padding: 10px 20px;
   border-radius: 30px;
 }
+
+/* Footer Styling */
+
+.footer {
+  background-color: #5f2c61;
+  margin: 0;
+  height: 7vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer img {
+  width: 180px;
+  height: 80%;
+  margin: 7px 0 0 7px;
+}
+
+/* Home Page Styling */
+
+.home-page {
+  margin: 40px auto;
+  width: 80vw;
+  height: 70vh;
+  font-family: "Montserrat", serif;
+  flex: 1;
+}
+
+.home-logo {
+  height: 200px;
+  background-color: white;
+  border: 2px solid #99479c;
+  padding: 25px;
+  border-radius: 6px;
+  margin-top: 55px;
+}
+
+.intro {
+  margin-top: 90px;
+  display: flex;
+  gap: 100px;
+}
+
+.intro-paragraph h1 {
+  color: #64dbcf;
+  margin: 0;
+  font-size: 5.5rem;
+  text-shadow: 4px 4px 1px #99479c;
+  line-height: 6rem;
+}
+
+.intro-paragraph p {
+  color: #5f2c61;
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 450;
+}
+
+.btns-container {
+  width: 40%;
+  margin: 20px 0 0 460px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-btn{
+  border: 2px solid #99479c;
+  color: #99479c;
+}
+
+.contact-btn {
+  background-color: #5f2c61;
+  color: #fffcf2;
+}
+
+.btns-container a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding: 20px 30px;
+  border-radius: 2px;
+}
+

@@ -1,7 +1,10 @@
 import React from "react"
+import realtorImg from "../assets/RealtorIMG.png"
 
 export default function Footer() {
     return (
-        <h1>Footer</h1>
+        <div className="bar footer">
+            <img src={realtorImg} alt="realtor" />
+        </div>
     )
 }
