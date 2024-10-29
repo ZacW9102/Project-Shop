@@ -7,7 +7,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #fffcf2;
 }
 
@@ -29,10 +29,8 @@ nav {
 
 header a {
   color: rgb(32, 32, 32);
-  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
-  font-family: "Montserrat", serif;
   font-weight: 500;
 }
 
@@ -56,6 +54,7 @@ a.active-link {
   background-color: #252525;
   padding: 10px 20px;
   border-radius: 30px;
+  font-size: 2rem;
 }
 
 /* Footer Styling */
@@ -82,7 +81,6 @@ a.active-link {
   margin: 40px auto;
   width: 80vw;
   height: 70vh;
-  font-family: "Montserrat", serif;
   flex: 1;
 }
 
@@ -101,7 +99,8 @@ a.active-link {
   gap: 100px;
 }
 
-.intro-paragraph h1 {
+.intro-paragraph h1,
+.employee-info h1 {
   color: #64dbcf;
   margin: 0;
   font-size: 5.5rem;
@@ -118,7 +117,7 @@ a.active-link {
 
 .btns-container {
   width: 40%;
-  margin: 20px 0 0 460px;
+  margin: 20px 0 0 475px;
   display: flex;
   justify-content: space-around;
 }
@@ -139,5 +138,150 @@ a.active-link {
   font-weight: 800;
   padding: 20px 30px;
   border-radius: 2px;
+  width: 250px;
+  text-align: center;
 }
 
+/* Project Page Styling */
+
+.project-card {
+  border: 2px solid #5f2c61;
+  border-radius: 4px;
+  color: #252525;
+  width: 20vw;
+  box-shadow: 2px 2px 10px #818181;
+  margin-bottom: 30px;
+}
+
+.project-card h1 {
+  background-color: #5f2c61;
+  margin: 0;
+  padding: 8px 4px;
+  text-align: center;
+  color: #fffcf2;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card p {
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.cards-container {
+  margin: 40px 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Listings Page Styling */
+
+.listings-page {
+  margin: 60px 160px;
+}
+
+/* Contact Page Styling */
+
+.contact-page {
+  margin: 120px 400px;
+  text-align: center;
+}
+
+.contact-page h1, 
+.contact-page h2, 
+.contact-page h3 {
+  font-weight: 400;
+  color: #252525;
+} 
+
+
+.contact-page h1 {
+  font-size: 3.5rem;
+  color: #5f2c61;
+  margin: 0;
+}
+
+.contact-page h2 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+.contact-page h3 {
+  margin-top: 10px;
+  font-size: 1.85rem;
+}
+
+.contact-page p {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  width: 400px;
+}
+
+/* About Page Styling */ 
+
+.about-page {
+  margin: 25px 100px;
+}
+
+.top {
+  display: flex;
+}
+
+.employee-info {
+  width: 100%;
+  padding: 0 100px;
+  text-align: left;
+}
+
+.employee-info h1 {
+  font-size: 3.5rem;
+}
+
+.employee-info h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #252525;
+}
+
+.employee-info p {
+  text-indent: 40px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: #252525;
+}
+
+.top img {
+  border: 2px solid #99479c;
+  border-top: 12px solid #99479c;
+  border-radius: 4px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.legend p {
+  font-size: 0.85rem;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.employee2 {
+  text-align: end;
+}
